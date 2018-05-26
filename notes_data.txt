@@ -1,0 +1,17 @@
+Notes on Rafiq's data in For Nhat:
+
+* raw_c: Raw trace of contra trials
+1572 units
+Frequency is 5 Hz
+Each cell has dimension time points x trials
+
+* ref_table:
+Col 1: unit number
+Col 2: session number (can have same mouse for different sessions)
+Col 3: unit number within session
+Col 4: Whether unit is SC-projecting
+Col 5: Whether unit is trial-modulated
+Col 6: NaN: not trial-modulated,
+	   1: contra prefering
+	   2: ipsi prefering (TODO: CHECK)
+	   
