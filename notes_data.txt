@@ -5,6 +5,12 @@ Notes on Rafiq's data in For Nhat:
 Frequency is 5 Hz
 Each cell has dimension time points x trials
 
+* mvmt_start is calculated based on fballX by looking at the acceleration and 
+see when it crosses a threshold
+reward_time can have different thresholds depending on the mouse and session
+
+* fballc_data: 200 frames, 100 frames/s, each frame is 0.01s
+
 * ref_table:
 Col 1: unit number
 Col 2: session number (can have same mouse for different sessions)
