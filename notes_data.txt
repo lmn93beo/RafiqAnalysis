@@ -11,13 +11,18 @@ reward_time can have different thresholds depending on the mouse and session
 
 * fballc_data: 200 frames, 100 frames/s, each frame is 0.01s
 
+
+
 * ref_table:
 Col 1: unit number
 Col 2: session number (can have same mouse for different sessions)
 Col 3: unit number within session
 Col 4: Whether unit is SC-projecting
 Col 5: Whether unit is trial-modulated
-Col 6: NaN: not trial-modulated,
+Col 6: NaN: not trial-modulated, OR not SC-projecting
+	   0: stim-modulated, but contra/ipsi non-specific
 	   1: contra prefering
 	   2: ipsi prefering (TODO: CHECK)
 	   
+Note that 0,1,2 are only calculated for SC-projecting cells
+
